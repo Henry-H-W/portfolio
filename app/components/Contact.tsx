@@ -9,23 +9,23 @@ import Image from 'next/image'
 
 const Contact = () => {
     const sendHandler = async () => {
-        try {
-            const res = await fetch(`/api/send`, {
+        // try {
+        //     const res = await fetch(`/api/send`, {
     
-                // Adding method type
-                method: "POST",
+        //         // Adding method type
+        //         method: "POST",
                 
-                // Adding body or contents to send
-                body: JSON.stringify({
-                    test: "test"
-                })
-            });
+        //         // Adding body or contents to send
+        //         body: JSON.stringify({
+        //             test: "test"
+        //         })
+        //     });
             
-            const data = await res.json();
-            console.log(data);
-        } catch (err) {
-            console.log(err);
-        }
+        //     const data = await res.json();
+        //     console.log(data);
+        // } catch (err) {
+        //     console.log(err);
+        // }
     }
 
   return (

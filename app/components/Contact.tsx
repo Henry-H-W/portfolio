@@ -31,7 +31,7 @@ const Contact = () => {
   return (
     <section id='Contact' className='grid md:grid-cols-2 px-24 py-24 mx-3 rounded-t-lg gap-10 h-fit bg-gradient-to-tr from-[#858bff] to-[#4ADEDE]  '>
         <div className='max-w-[500px]'>
-            <h3>Let&apos;s Connect!</h3>
+            <h3 className='text-5xl font-bold mb-2'>Let&apos;s Connect!</h3>
 
             <p className='text-[#d3d3d3] mb-4 mt-4 text-lg'>
                 I&apos;m currently looking for new opportunities to connect with people. My inbox is always open, so feel free to reach out to me.

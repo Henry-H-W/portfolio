@@ -18,7 +18,7 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl}:any) => {
         </div>
 
         <div className='text-white flex flex-col flex-wrap w-[500px]'>
-            <h4 className='mb-2'>{title}</h4>
+            <h4 className='mb-2 text-xl mt-1'>{title}</h4>
             <p className='text-[#ADB7BE]'>{description}</p>
         </div>
     </div>

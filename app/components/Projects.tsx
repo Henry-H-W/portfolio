@@ -31,7 +31,7 @@ const projectsData = [
 const Projects = () => {
   return (
     <section id='Projects' className='md:px-24 px-10 py-16 bg-slate-800'>
-        <h3>My Projects</h3>
+        <h3 className='text-4xl font-bold mb-2'>My Projects</h3>
         <div className='h-1 w-full bg-gradient-to-tr from-[#858bff] to-[#4ADEDE] mb-4 '></div>
         <div className='flex flex-wrap justify-center gap-2'>{projectsData.map((project) => <ProjectCard key={project.id} title={project.title} description={project.description} imgUrl={project.image} gitUrl={project.gitUrl} previewUrl={project.previewUrl}/>)}</div>
 

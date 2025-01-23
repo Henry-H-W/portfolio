@@ -14,7 +14,7 @@ const About = () => {
             />
 
             <div>
-                <h3>About Me</h3>   
+                <h3 className='text-4xl font-bold mb-2'>About Me</h3>   
                 <div className='h-1 w-full bg-gradient-to-tr from-[#858bff] to-[#4ADEDE] mb-4 '></div>
                 <p className='text-[#b1b1b1] leading-loose'>
                     I&apos;m Henry Wang, a third year Software Engineering student at the University of Western Ontario from Scarborough Ontario. 

@@ -40,7 +40,7 @@ const Experience = () => {
   return (
     <section id='Experience' className='w-full flex justify-center'>
       <div className='h-fit w-full px-24 py-10'>
-        <h3>My Experience</h3>   
+        <h3 className='text-4xl font-bold'>My Experience</h3>   
         <div className='h-1 w-full bg-gradient-to-tr from-[#858bff] to-[#4ADEDE] mb-10 '></div>
           <div className='flex justify-center'>
             <div className='bg-gradient-to-bl from-[#55315e] to-[#162e5a] rounded-lg px-1 md:px-28 py-6'>

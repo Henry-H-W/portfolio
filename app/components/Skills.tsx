@@ -13,7 +13,7 @@ const Skills = () => {
   return (
     <section id='Skills' className='my-10'>
       <div className='bg-[#181818] h-fit w-full px-24 py-10'>
-        <h3>My Skills</h3>
+        <h3 className='text-4xl font-bold mb-2'>My Skills</h3>
         <div className='h-1 w-full bg-gradient-to-tr from-[#858bff] to-[#4ADEDE] mb-10'></div>
         <div className='flex justify-center'>
           <div className='flex flex-wrap gap-4 justify-center max-w-[1100px]'>
